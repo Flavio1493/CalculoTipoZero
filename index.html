@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&family=Zen+Dots&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Calculo Cantidades</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculos</h1>
+        <div class="inputCantBolitasPorHacer">
+            <p>Cant. de bolitas por hacer:</p>
+            <input type="number" id="cantidadBolitas">
+            <p>Cant. de harina a usar:</p>
+            <h4 id="cantidadDeHarinaExacta"></h4>
+        </div>
+        <button onclick="calcularHarina()">Calcular</button>
+        <div class="cantidadesAUtilizar">
+            <p>Cant. de haria:</p>
+            <input type="number" id="cantHarinaAUsar">
+            <button onclick="calcularIngredientes()">Calcular</button>
+            <p>Agua:</p>
+            <h4 id="cantidadAgua"></h4>
+            <p>Levadura:</p>
+            <h4 id="cantidadLevadura"></h4>
+            <p>Aceite:</p>
+            <h4 id="cantidadAceite"></h4>
+            <p>Sal:</p>
+            <h4 id="cantidadSal"></h4>
+        </div>
+    </div>
+</body>
+
+</html>
